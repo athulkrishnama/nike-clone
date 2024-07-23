@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'HelveticaNowText Bold';
-    src: url(/media/font/HelveticaNowText-Medium/HelveticaNowText-Bold.ttf);
+    src: url(./media/font/HelveticaNowText-Medium/HelveticaNowText-Bold.ttf);
 }
 @font-face {
     font-family: 'HelveticaNowText Regular';
-    src: url(/media/font/HelveticaNowText-Medium/HelveticaNowText-Regular.ttf);
+    src: url(./media/font/HelveticaNowText-Medium/HelveticaNowText-Regular.ttf);
 }
 @font-face {
     font-family: 'Helvetica Now Text Medium';
-    src: url(/media/font/HelveticaNowText-Medium/HelveticaNowText-Medium.ttf);
+    src: url(./media/font/HelveticaNowText-Medium/HelveticaNowText-Medium.ttf);
 }
 
 * {
