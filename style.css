@@ -7,9 +7,23 @@
     src: url(./media/font/HelveticaNowText-Medium/HelveticaNowText-Regular.ttf);
 }
 @font-face {
-    font-family: 'Helvetica Now Text Medium';
-    src: url(./media/font/HelveticaNowText-Medium/HelveticaNowText-Medium.ttf);
+    font-family: 'HelveticaNowText Medium';
+    src: url(./media/font/HelveticaNowText-Medium/HelveticaNowText-Medium.woff);
 }
+
+@font-face
+{
+	font-family: FuturaBold;
+	src: url(./media/font/Nike-Futura.woff2);
+	font-weight: bold;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay Medium';
+    src: url(./media/font/HelveticaNowText-Medium/HelveticaNowDisplayMedium.woff2);
+    font-weight: normal;
+}
+
 
 * {
     margin: 0;
@@ -61,6 +75,7 @@ body {
 
 .nike {
     padding: 1rem 3vw;
+    width: 100%;
 }
 
 .nike-nav {
@@ -83,7 +98,7 @@ body {
 .nav-items>li {
     margin: 0.7rem;
     padding-bottom: 3px;
-    font-family: 'Helvetica Now Text Medium';
+    font-family: 'HelveticaNowText Medium';
 }
 
 .nav-items > li:hover > .detailed-nav{
@@ -107,7 +122,7 @@ body {
     background-color: rgb(245, 245, 245);
     border-radius: 2rem;
     color: rgb(112, 112, 114);
-    font-family: 'Helvetica Now Text Medium';
+    font-family: 'HelveticaNowText Medium';
     display: flex;
     height: 2rem;
 }
@@ -174,7 +189,7 @@ body {
 .list-group ul{
     list-style-type: none;
     font-size: 13px;
-    font-family: 'Helvetica Now Text Medium';
+    font-family: 'HelveticaNowText Medium';
     color: rgb(112, 112, 114);
 }
 
@@ -188,7 +203,7 @@ body {
 
 .list-group h6{
     font-size: 16px;
-    font-family:  'Helvetica Now Text Medium', Helvetica;
+    font-family:  'HelveticaNowText Medium', Helvetica;
     margin-bottom: 1rem;
     margin-top: 2rem;
     font-weight: 300;
@@ -199,3 +214,64 @@ body {
     color: rgb(112, 112, 114);
 }
 
+
+.title-video > video{
+    width: 100%;
+}
+
+.title-text{
+    color: rgb(17, 17, 17);
+    text-align: center;
+}
+
+.title-text > h2{
+    font-size: 96px;
+    font-weight: normal;
+    font-family: FuturaBold;
+}
+
+.title-text > h6{
+    font-size: 16px;
+    font-family: 'HelveticaNowText Regular', Helvetica;
+}
+
+.title-text > button{
+    background-color: rgb(17, 17, 17);
+    color: rgb(245, 245, 245);
+    font-family: 'HelveticaNowText Bold';
+    padding: .5rem 1rem;
+    border-radius: 25px;
+    margin-top: 2rem;
+    font-size: 16px;
+    border: none;
+}
+
+.title-text > button:hover{
+    background-color: rgb(112, 112, 114);
+}
+
+.shop-air{
+    margin-top: 4rem;
+}
+
+.shop-air > h3{
+    font-size: 32px;
+    font-family: 'HelveticaNowDisplay Medium';
+    font-weight: normal;
+}
+
+.air-shoes{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 2rem;
+}
+
+.shoe-text{
+    font-family: 'HelveticaNowDisplay Medium';
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-top: 1.5rem;
+}
