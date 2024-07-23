@@ -2,7 +2,10 @@
     font-family: 'HelveticaNowText Bold';
     src: url(/media/font/HelveticaNowText-Medium/HelveticaNowText-Bold.ttf);
 }
-
+@font-face {
+    font-family: 'HelveticaNowText Regular';
+    src: url(/media/font/HelveticaNowText-Medium/HelveticaNowText-Regular.ttf);
+}
 @font-face {
     font-family: 'Helvetica Now Text Medium';
     src: url(/media/font/HelveticaNowText-Medium/HelveticaNowText-Medium.ttf);
@@ -83,6 +86,10 @@ body {
     font-family: 'Helvetica Now Text Medium';
 }
 
+.nav-items > li:hover > .detailed-nav{
+    height: 550px;
+}
+
 .nav-items>li:hover {
     border-bottom: 2px solid black;
 }
@@ -116,7 +123,7 @@ body {
 
 
 #mag {
-    background-color: white;
+    background-color: rgb(245, 245, 245);
     margin: 0;
     padding: .3rem;
     border-radius: 50%;
@@ -144,3 +151,51 @@ body {
 #heart:hover {
     background-color: rgb(229, 229, 229);
 }
+
+
+.detailed-nav{
+    height: 0px;
+    width: 100vw;
+    margin-top: 1rem;
+    position: absolute;
+    background-color: white;
+    left: 0;
+    transition: 300ms;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.list-group{
+    margin: 1rem 0;
+    width: 15rem;
+}
+
+.list-group ul{
+    list-style-type: none;
+    font-size: 13px;
+    font-family: 'Helvetica Now Text Medium';
+    color: rgb(112, 112, 114);
+}
+
+.list-group li:hover{
+    color: rgb(17, 17, 17);
+}
+
+.list-group li{
+    margin: 0.6rem 0;
+}
+
+.list-group h6{
+    font-size: 16px;
+    font-family:  'Helvetica Now Text Medium', Helvetica;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    font-weight: 300;
+    color: rgb(17, 17, 17);
+}
+
+.list-group h6:hover{
+    color: rgb(112, 112, 114);
+}
+
