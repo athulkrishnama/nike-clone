@@ -82,6 +82,7 @@ body {
     display: flex;
     height: 60px;
     justify-content: space-between;
+    width: 100%;
 }
 
 #logo {
@@ -254,7 +255,7 @@ body {
     margin-top: 4rem;
 }
 
-.shop-air > h3{
+.section-heading{
     font-size: 32px;
     font-family: 'HelveticaNowDisplay Medium';
     font-weight: normal;
@@ -274,4 +275,44 @@ body {
     font-size: 1.5rem;
     font-weight: normal;
     margin-top: 1.5rem;
+}
+
+.featured{
+    margin-top: 3rem;
+}
+.featured-contents{
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.featured-content{
+    position: relative;
+}
+
+.featured-content > img{
+    width: 100%;
+}
+
+.featured-content .overlay{
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    color: rgb(245, 245, 245);
+    font-size: 2rem;
+}
+
+.featured-content .overlay > h3{  
+    font-family: 'HelveticaNowDisplay Medium';
+    font-weight: 100;
+}
+
+.featured-content .overlay > button{
+    background-color: rgb(245, 245, 245);
+    border: none;
+    color: rgb(17, 17, 17);
+    font-family: 'HelveticaNowDisplay Medium';
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 15px;
 }
