@@ -339,3 +339,62 @@ body {
     gap: 1rem;
     overflow-y: hidden;
 }
+
+
+.latest{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.latest > video{
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.luka{
+    padding: 0 15rem ;
+    font-weight: normal;
+}
+
+.trending{
+    margin-top: 3rem;
+}
+
+
+.trending-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trending-heading  h6{
+    color: rgb(17, 17, 17);
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.trending-heading h6:hover{
+    color: rgb(112, 112, 114);
+}
+
+
+.trending-items{
+    display: flex;
+    margin-top: 1rem;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    gap: 1rem;
+}
+
+.trending-item > h6{
+    font-family: 'HelveticaNowDisplay Medium';
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+
+.trending-item > .purpose{
+    color: rgb(112, 112, 114);
+}
+
+.trending-item > .price{
+    margin-top: 0.5rem;
+}
