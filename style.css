@@ -328,3 +328,14 @@ body {
     width: 100%;
     margin-top: 1rem;
 }
+.spotlight > .heading{
+    display: flex;
+}
+
+.spotlights{
+    margin-top: 1.2rem;
+    display: flex;
+    overflow-x: scroll;
+    gap: 1rem;
+    overflow-y: hidden;
+}
