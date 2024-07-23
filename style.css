@@ -171,8 +171,8 @@ body {
 
 .detailed-nav{
     height: 0px;
-    width: 100vw;
-    margin-top: 1rem;
+    width: 100%;
+    padding-top: 1rem;
     position: absolute;
     background-color: white;
     left: 0;
