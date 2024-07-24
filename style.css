@@ -498,10 +498,96 @@ body {
     font-size: 15px;
 }
 
-.benefit-item > .overlay > button:hover{
+.benefit-item > .overlay > button:hover, .featured-content button:hover{
     background-color: rgb(229, 229, 229);
 }
 
 .benefit-item > img{
     width: 33vw;
+}
+
+.products{
+    margin: 5rem;
+    margin-bottom: 7rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    height: 13rem;
+    overflow: hidden;
+}
+
+.products:hover{
+    height: 25rem;
+    transition: 300ms;
+}
+.pro-list{
+    width: 15rem;
+}
+
+.pro-list li{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.pro-list  h6{
+    font-size: 1.5rem;
+}
+
+footer{
+    border-top: 1px solid rgb(141, 141, 141);
+    position: relative;
+}
+
+
+.links {
+    display: flex;
+}
+
+.link-group{
+    width: 30rem;
+}
+
+.link-group > h6{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.link-group li{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.location{
+    padding: 1rem;
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: rgb(141, 141, 141);
+}
+
+.location > img{
+    height: 1rem;
+}
+
+.copyright{
+    display: flex;
+    margin: 4rem 0;
+}
+
+.copyright > h6{
+    color: rgb(141, 141, 141);
+    font-weight: normal;
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+
+
+.copyright .hover:hover{
+    color: rgb(17, 17, 17);
+}
+
+button:hover, li:hover, a:hover ,.hover:hover{
+    cursor: pointer;
 }
