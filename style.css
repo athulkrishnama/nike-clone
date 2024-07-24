@@ -2,20 +2,21 @@
     font-family: 'HelveticaNowText Bold';
     src: url(./media/font/HelveticaNowText-Medium/HelveticaNowText-Bold.ttf);
 }
+
 @font-face {
     font-family: 'HelveticaNowText Regular';
     src: url(./media/font/HelveticaNowText-Medium/HelveticaNowText-Regular.ttf);
 }
+
 @font-face {
     font-family: 'HelveticaNowText Medium';
     src: url(./media/font/HelveticaNowText-Medium/HelveticaNowText-Medium.woff);
 }
 
-@font-face
-{
-	font-family: FuturaBold;
-	src: url(./media/font/Nike-Futura.woff2);
-	font-weight: bold;
+@font-face {
+    font-family: FuturaBold;
+    src: url(./media/font/Nike-Futura.woff2);
+    font-weight: bold;
 }
 
 @font-face {
@@ -102,7 +103,7 @@ body {
     font-family: 'HelveticaNowText Medium';
 }
 
-.nav-items > li:hover > .detailed-nav{
+.nav-items>li:hover>.detailed-nav {
     height: 550px;
 }
 
@@ -169,7 +170,7 @@ body {
 }
 
 
-.detailed-nav{
+.detailed-nav {
     height: 0px;
     width: 100%;
     margin-top: 1rem;
@@ -183,61 +184,61 @@ body {
     justify-content: center;
 }
 
-.list-group{
+.list-group {
     margin: 1rem 0;
     width: 15rem;
 }
 
-.list-group ul{
+.list-group ul {
     list-style-type: none;
     font-size: 13px;
     font-family: 'HelveticaNowText Medium';
     color: rgb(112, 112, 114);
 }
 
-.list-group li:hover{
+.list-group li:hover {
     color: rgb(17, 17, 17);
 }
 
-.list-group li{
+.list-group li {
     margin: 0.6rem 0;
 }
 
-.list-group h6{
+.list-group h6 {
     font-size: 16px;
-    font-family:  'HelveticaNowText Medium', Helvetica;
+    font-family: 'HelveticaNowText Medium', Helvetica;
     margin-bottom: 1rem;
     margin-top: 2rem;
     font-weight: 300;
     color: rgb(17, 17, 17);
 }
 
-.list-group h6:hover{
+.list-group h6:hover {
     color: rgb(112, 112, 114);
 }
 
 
-.title-video > video{
+.title-video>video {
     width: 100%;
 }
 
-.title-text{
+.title-text {
     color: rgb(17, 17, 17);
     text-align: center;
 }
 
-.title-text > h2{
+.title-text>h2 {
     font-size: 96px;
     font-weight: normal;
     font-family: FuturaBold;
 }
 
-.title-text > h6{
+.title-text>h6 {
     font-size: 16px;
     font-family: 'HelveticaNowText Regular', Helvetica;
 }
 
-.title-text > button{
+.title-text>button {
     background-color: rgb(17, 17, 17);
     color: rgb(245, 245, 245);
     font-family: 'HelveticaNowText Bold';
@@ -248,21 +249,21 @@ body {
     border: none;
 }
 
-.title-text > button:hover{
+.title-text>button:hover {
     background-color: rgb(112, 112, 114);
 }
 
-.shop-air{
+.shop-air {
     margin-top: 4rem;
 }
 
-.section-heading{
+.section-heading {
     font-size: 32px;
     font-family: 'HelveticaNowDisplay Medium';
     font-weight: normal;
 }
 
-.air-shoes{
+.air-shoes {
     display: flex;
     gap: 1rem;
     width: 100%;
@@ -271,31 +272,32 @@ body {
     padding-bottom: 2rem;
 }
 
-.shoe-text{
+.shoe-text {
     font-family: 'HelveticaNowDisplay Medium';
     font-size: 1.5rem;
     font-weight: normal;
     margin-top: 1.5rem;
 }
 
-.featured{
+.featured {
     margin-top: 3rem;
 }
-.featured-contents{
+
+.featured-contents {
     display: flex;
     margin-top: 1rem;
     gap: 1rem;
 }
 
-.featured-content{
+.featured-content {
     position: relative;
 }
 
-.featured-content > img{
+.featured-content>img {
     width: 100%;
 }
 
-.featured-content .overlay{
+.featured-content .overlay {
     position: absolute;
     bottom: 3rem;
     left: 3rem;
@@ -303,12 +305,12 @@ body {
     font-size: 2rem;
 }
 
-.featured-content .overlay > h3{  
+.featured-content .overlay>h3 {
     font-family: 'HelveticaNowDisplay Medium';
     font-weight: 100;
 }
 
-.featured-content .overlay > button{
+.featured-content .overlay>button {
     background-color: rgb(245, 245, 245);
     border: none;
     color: rgb(17, 17, 17);
@@ -320,20 +322,21 @@ body {
 
 /* gear up */
 
-.gear-up{
+.gear-up {
     margin-top: 4rem;
     width: 100%;
 }
 
-.gear-up > img{
+.gear-up>img {
     width: 100%;
     margin-top: 1rem;
 }
-.spotlight > .heading{
+
+.spotlight>.heading {
     display: flex;
 }
 
-.spotlights{
+.spotlights {
     margin-top: 1.2rem;
     display: flex;
     overflow-x: scroll;
@@ -342,43 +345,44 @@ body {
 }
 
 
-.latest{
+.latest {
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
 
-.latest > video{
+.latest>video {
     width: 100%;
     margin-top: 1.5rem;
 }
-.luka{
-    padding: 0 15rem ;
+
+.luka {
+    padding: 0 15rem;
     font-weight: normal;
 }
 
-.trending{
+.trending {
     margin-top: 3rem;
 }
 
 
-.trending-heading{
+.trending-heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.trending-heading  h6{
+.trending-heading h6 {
     color: rgb(17, 17, 17);
     font-size: 1.3rem;
     font-weight: normal;
 }
 
-.trending-heading h6:hover{
+.trending-heading h6:hover {
     color: rgb(112, 112, 114);
 }
 
 
-.trending-items{
+.trending-items {
     display: flex;
     margin-top: 1rem;
     overflow-y: hidden;
@@ -386,16 +390,118 @@ body {
     gap: 1rem;
 }
 
-.trending-item > h6{
+.trending-item>h6 {
     font-family: 'HelveticaNowDisplay Medium';
     font-weight: normal;
     font-size: 1.1rem;
 }
 
-.trending-item > .purpose{
+.trending-item>.purpose {
     color: rgb(112, 112, 114);
 }
 
-.trending-item > .price{
+.trending-item>.price {
     margin-top: 0.5rem;
+}
+
+
+.sports {
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.sports-items {
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+
+.sports-item {
+    position: relative;
+    width: 100%;
+}
+
+.sports-item>button {
+    position: absolute;
+    left: 3rem;
+    bottom: 3rem;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    color: rgb(17, 17, 17);
+    font-family: 'HelveticaNowDisplay Medium';
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 15px;
+
+}
+
+.sports-item>button:hover{
+    background-color: rgb(229, 229, 229);
+}
+
+
+.sport-img {
+    width: 33vw;
+}
+
+.benefits{
+    margin-top: 4rem;
+}
+
+.benefit-items{
+    display: flex;
+    gap: 1rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-top: 1rem;
+}
+
+.benefit-item{
+    position: relative;
+}
+
+.benefit-item > .overlay{
+    position: absolute;
+    bottom: 5rem;
+    left: 5rem;
+    color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+.benefit-item > .overlay > h5{
+    font-weight: normal;
+    font-family: 'HelveticaNowDisplay Medium';
+    font-size: 1.5rem;
+}
+
+.benefit-item > .overlay > h4{
+    font-weight: normal;
+    font-family: 'HelveticaNowDisplay Medium';
+    font-size: 2rem;
+}
+
+
+.benefit-item > .overlay > button{
+    background-color: rgb(245, 245, 245);
+    border: none;
+    color: rgb(17, 17, 17);
+    font-family: 'HelveticaNowDisplay Medium';
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.benefit-item > .overlay > button:hover{
+    background-color: rgb(229, 229, 229);
+}
+
+.benefit-item > img{
+    width: 33vw;
 }
