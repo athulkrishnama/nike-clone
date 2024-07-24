@@ -172,8 +172,9 @@ body {
 .detailed-nav{
     height: 0px;
     width: 100%;
-    padding-top: 1rem;
+    margin-top: 1rem;
     position: absolute;
+    z-index: 2;
     background-color: white;
     left: 0;
     transition: 300ms;
